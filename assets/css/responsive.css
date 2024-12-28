@@ -492,7 +492,7 @@
 /* Mobile Devices */
 @media only screen and (max-width: 767px) {
 	.lead, p, li {
-		font-size: 0.85rem;
+		font-size: 0.9rem;
 		line-height: 1.5;
 	  }
 	.progress-wrap {
@@ -1228,9 +1228,11 @@
 		padding: 30px 20px;
 	}
 	/* works */
-	.works-content-area {
+	#resume-section .works-content-area {
 		padding: 30px 20px;
 		flex-direction: column;
+		gap: 50px;
+		background-color: transparent;
 	}
 	.works-content-area .works-content-item .works-content-box {
 		padding-left: 25px;
@@ -1267,9 +1269,7 @@
 	.contact-content-area .form_group textarea {
 		height: 150px;
 	}
-	.works-content-area {
-		gap: 50px;
-	}
+	
 	.works-content-item .title {
 		margin-bottom: 30px;
 	}
@@ -1324,6 +1324,11 @@
 		 background: #9868ef;
 		 border-radius: 10px;
 		 background-clip: padding-box;
+	 }
+	 .works-content-item{
+		background: var(--tj-theme-accent-2);
+  padding: 30px 20px !important;
+  border-radius: 15px;
 	 }
 }
 
