@@ -498,6 +498,7 @@
 	.progress-wrap {
 		right: 20px;
 		bottom: 20px;
+		display: none;
 	}
 	h1 {
 		font-size: 40px;

@@ -3890,8 +3890,7 @@ body.absolute_header .breadcrumb_area {
 	display: none;
 }
 .accordion-item .faq-text {
-	padding: 5px 10px 30px 30px;
-	max-width: 985px;
+	padding: 20px;
 	width: 100%;
 }
 .accordion-item .faq-text p {
