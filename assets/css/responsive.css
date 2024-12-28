@@ -1244,12 +1244,12 @@
 	.works-content-area
 		.works-content-item:nth-child(1)
 		.works-content-box::before {
-		height: 55%;
+		height: 100%;
 	}
 	.works-content-area
 		.works-content-item:nth-child(3)
 		.works-content-box::before {
-		height: 68%;
+		height: 100%;
 	}
 	.works-item .title {
 		font-size: 18px;
