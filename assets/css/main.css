@@ -3850,7 +3850,7 @@ body.absolute_header .breadcrumb_area {
 	margin-bottom: 0;
 }
 .accordion-item .faq-title {
-	font-size: 20px;
+	font-size: 18px;
 	font-family: var(--tj-ff-heading);
 	font-weight: var(--tj-fw-medium);
 	padding: 20px 55px 20px 30px;
@@ -3880,9 +3880,12 @@ body.absolute_header .breadcrumb_area {
 }
 .accordion-item .faq-title:not(.collapsed) {
 	box-shadow: none;
+	color: var(--tj-theme-primary);
+	font-weight: 600;
 }
 .accordion-item .faq-title:not(.collapsed):before {
 	content: "\f068";
+	color: var(--tj-theme-primary);
 }
 .accordion-item .faq-title:focus {
 	box-shadow: none;
