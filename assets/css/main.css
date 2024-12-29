@@ -2155,7 +2155,7 @@ body.loaded {
 
 
 .skills-widget .skill-inner {
-	border-radius: 25px;
+	border-radius: 20px;
 	padding: 25px;
 	background: var(--tj-theme-accent-2);
 	border: 1px solid transparent;
@@ -2174,7 +2174,7 @@ body.loaded {
 	max-width: 60px;
 	width: 100%;
 	margin: 0 auto 30px;
-	opacity: 0.65;
+	opacity: 0.85;
 }
 
 .skills-widget .skill-item:hover .icon-box {
@@ -2420,7 +2420,7 @@ body.loaded {
 */
 .tj-footer-area {
 	background: var(--tj-theme-accent-1);
-	padding: 50px 0 20px;
+	padding: 25px 0px;
 }
 .footer-logo-box {
 	max-width: 75px;
@@ -2431,7 +2431,7 @@ body.loaded {
 	display: inline-block;
 }
 .footer-menu ul {
-	margin: 0 0 27px;
+	margin: 0;
 	padding: 0;
 	list-style: none;
 	display: -webkit-box;
