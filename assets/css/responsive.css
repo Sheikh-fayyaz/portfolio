@@ -1333,5 +1333,9 @@
   padding: 30px 20px !important;
   border-radius: 15px;
 	 }
+	 .about-area .about-left-content{
+		background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url('../img/about-bg-3mb.jpg');
+		background-position: right;
+	 }
 }
 
