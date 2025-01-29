@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   css: {
-    postcss: './postcss.config.js', // Link PostCSS config
+    postcss: './postcss.config.cjs', // Link PostCSS config
   },
   base: '/portfolio/', // Use your GitHub repo name
 });
