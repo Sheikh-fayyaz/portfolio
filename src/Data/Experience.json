@@ -1,0 +1,44 @@
+[
+    {
+      "designation": "Frontend Developer",
+      "company": "Greycampus Edutech",
+      "employmentType": "Full-time",
+      "duration": "Jul 2023 to Present",
+      "responsibilities": [
+        "Design and develop responsive and visually appealing modules, templates, and themes using HubSpot's Design Manager.",
+        "Proficient in translating Figma designs into functional and responsive web pages.",
+        "Ensure consistency in branding and user experience across all digital touchpoints.",
+        "Implement SEO best practices within HubSpot CMS."
+      ]
+    },
+    {
+      "designation": "Web Designer",
+      "company": "Adroit Infoactive Services",
+      "employmentType": "Full-time",
+      "duration": "March 2021 to Jul 2023",
+      "responsibilities": [
+        "Experience in creating and maintaining functional, attractive, and responsive websites.",
+        "Determining the structure and design of web pages.",
+        "Maintain and improve websites.",
+        "Design mobile-based features.",
+        "Collaborate with back-end developers and web designers to improve usability.",
+        "Get feedback from, and build solutions for, users and customers.",
+        "Ensure high-quality graphic standards and brand consistency.",
+        "Developing features to enhance the user experience.",
+        "Ensuring web design is optimized for smartphones.",
+        "Optimizing web pages for maximum speed and scalability."
+      ]
+    },
+    {
+      "designation": "UI UX Developer",
+      "company": "Ziraff Technologies",
+      "employmentType": "Full-time",
+      "duration": "Jun 2020 to Dec 2020",
+      "responsibilities": [
+        "Proficient in converting PSD designs into pixel-perfect HTML templates.",
+        "Expertise in customizing website themes to meet specific design and functionality requirements.",
+        "Assisting senior developers in the creation and integration of pages, images, icons, and components."
+      ]
+    }
+  
+  ]

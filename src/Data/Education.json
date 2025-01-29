@@ -1,0 +1,33 @@
+[
+   
+      {
+        "degree": "B.Tech CSE",
+        "institution": "Jawaharlal Nehru Technological University (JNTUH)",
+        "duration": "2015 - 2018",
+        "highlights": [
+          "Comprehensive understanding of computer systems, software, and hardware.",
+          "Proficiency in programming languages like C, Java, Python, and more.",
+          "Knowledge of data structures, algorithms, and database management systems.",
+          "Familiarity with operating systems, computer networks, and cybersecurity principles.",
+          "Experience in software development, web development, and mobile application development.",
+          "Exposure to emerging technologies like AI, ML, and Cloud Computing.",
+          "Strong problem-solving, analytical, and coding skills."
+        ]
+      },
+      {
+        "degree": "Diploma in IT",
+        "institution": "Maulana Azad National Urdu University, Hyderabad (MANUU)",
+        "duration": "2012 - 2015",
+        "highlights": [
+          "Fundamental knowledge of computer systems, software, and hardware.",
+          "Basic programming skills in languages like C, Java, or Python.",
+          "Understanding of networking concepts and internet technologies.",
+          "Proficiency in database management and SQL queries.",
+          "Introduction to web development using HTML, CSS, and JavaScript.",
+          "Exposure to IT tools and applications for business and communication.",
+          "Practical skills in troubleshooting and maintaining IT systems."
+        ]
+      }
+    
+    ]
+  
