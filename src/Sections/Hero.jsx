@@ -19,12 +19,14 @@ export default function Hero() {
             />
 
             <div className="theme-bg-shadow position-relative d-md-none d-block px-4 my-4">
+              <div className="primary-bg">
               <Image
                 imgPath={fayyazPic}
                 imgAlt="sheikh fayyaz Frontend Developer"
                 imgLoading="eager"
                 imgfetchpriority="high"
               />
+              </div>
             </div>
 
             <Paragraph
