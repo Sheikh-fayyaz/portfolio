@@ -195,6 +195,7 @@
         width: 184px !important;
         height: 425px;
         object-fit: cover;
+        object-position: top;
     }
   }
 
