@@ -66,6 +66,7 @@ body::before {
 p{
   margin: 0;
 }
+
 .primary-color{
   color: var(--primary-color);
 }
@@ -234,6 +235,10 @@ p{
 
 
 @media only screen and (max-width: 767px) {
+  .first-fold-img{
+    width: 303px !important;
+    height: 324px;
+  }
   .section-padY{
     padding: 50px 10px;
   }
