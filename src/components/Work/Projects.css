@@ -192,7 +192,7 @@
         flex: 0 0 auto !important;
       }
       .projectImg>img {
-        width: 184px;
+        width: 184px !important;
         height: 425px;
         object-fit: cover;
     }
