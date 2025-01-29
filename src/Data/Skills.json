@@ -2,7 +2,7 @@
     {
       "id": "1",
       "title": "HTML5",
-      "logo": "src/assets/images/icons/html5.svg",
+      "logo": "../assets/images/icons/html5.svg",
       "number": "92%"
     },
     {
