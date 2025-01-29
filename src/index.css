@@ -236,8 +236,8 @@ p{
 
 @media only screen and (max-width: 767px) {
   .first-fold-img{
-    width: 303px !important;
-    height: 324px;
+    width: 300px !important;
+    height: 321px;
   }
   .section-padY{
     padding: 50px 10px;

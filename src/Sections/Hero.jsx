@@ -1,6 +1,7 @@
 import Heading from "../components/Heading/Heading";
 import Image from "../components/Image";
 import fayyazPic from "../../public/assets/images/fayyaz-pic.webp";
+import fayyazPicMobile from "../../public/assets/images/fayyaz-pic-mobile.webp";
 import DownloadButton from "../components/DownloadButton";
 import SocialIcons from "../components/SocialIcons/SocialIcons";
 import Paragraph from "../components/Paragraph"
@@ -21,7 +22,7 @@ export default function Hero() {
             <div className="theme-bg-shadow position-relative d-md-none d-block px-4 my-4">
               <div className="primary-bg">
               <Image
-                imgPath={fayyazPic}
+                imgPath={fayyazPicMobile}
                 imgAlt="sheikh fayyaz Frontend Developer"
                 imgLoading="eager"
                 imgfetchpriority="high"
