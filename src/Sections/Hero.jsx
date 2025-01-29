@@ -1,6 +1,6 @@
 import Heading from "../components/Heading/Heading";
 import Image from "../components/Image";
-import fayyazPic from "../assets/images/fayyaz-pic.webp";
+import fayyazPic from "../../public/assets/images/fayyaz-pic.webp";
 import DownloadButton from "../components/DownloadButton";
 import SocialIcons from "../components/SocialIcons/SocialIcons";
 import Paragraph from "../components/Paragraph"
@@ -43,6 +43,7 @@ export default function Hero() {
               <Image
                 imgPath={fayyazPic}
                 imgAlt="sheikh fayyaz Frontend Developer"
+                imgLoading="eager"
               />
             </div>
           </div>
