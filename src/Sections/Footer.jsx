@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="footer section-padY pt-0">
+    <footer className="footer section-padY py-0">
       <div className="container">
       <div className="primary-bg rounded-top-4 p-md-5 p-4">
       <ul className="d-flex flex-wrap justify-content-center list-unstyled mb-0">
