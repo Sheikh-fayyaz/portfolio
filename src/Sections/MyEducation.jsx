@@ -1,4 +1,6 @@
-import Education from "../components/Education/ExperienceEducation";
+// import Education from "../components/Education/ExperienceEducation";
+import React, { Suspense } from 'react';
+const LazyComponent = React.lazy(() => import('../components/Education/ExperienceEducation'));
 import Title from "../components/Title";
 
 export default function MyEducation() {
@@ -9,7 +11,9 @@ export default function MyEducation() {
           content="Education & Work Experience"
           alignX="d-flex justify-content-center"
         />
-        <Education/>
+         <Suspense fallback={<div>Loading...</div>}>
+          <LazyComponent />
+        </Suspense>
       </div>
     </section>
   );

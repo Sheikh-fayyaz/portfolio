@@ -1,4 +1,6 @@
-import Skills from "../components/Skills/Skills";
+// import Skills from "../components/Skills/Skills";
+import React, { Suspense } from 'react';
+const LazyComponent = React.lazy(() => import('../components/Skills/Skills'));
 import Title from "../components/Title";
 
 export default function MySkills() {
@@ -9,7 +11,9 @@ export default function MySkills() {
           content="My Skills"
           alignX="d-flex justify-content-center"
         />
-        <Skills />
+         <Suspense fallback={<div>Loading...</div>}>
+          <LazyComponent />
+        </Suspense>
       </div>
     </section>
   );
