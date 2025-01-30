@@ -1,8 +1,147 @@
 import React, { useState, useEffect } from "react";
-import workData from "../../Data/Projects.json";
 import "./Projects.css";
 
+
 export default function Projects() {
+  const workData = {
+    "categories": [
+      {
+        "id": "general",
+        "name": "General",
+        "projects": [
+          {
+            "name": "Hivision Foundation",
+            "link": "http://www.hivisionfoundation.org/",
+            "image": "assets/images/projects/general/hivision-foundation.webp"
+          },
+          {
+            "name": "Seed Bird",
+            "link": "https://seedbird.org/",
+            "image": "assets/images/projects/general/seedbird-org.webp"
+          },
+          {
+            "name": "Pragati Biotech",
+            "link": "http://www.pragatibiotech.com/",
+            "image": "assets/images/projects/general/pragati-biotech.webp"
+          },
+          {
+            "name": "Royalton Hotel",
+            "link": "https://www.royaltonhotel.in/",
+            "image": "assets/images/projects/general/royalton-hotel.webp"
+          },
+          {
+            "name": "Shantinath Granites",
+            "link": "http://www.shantinathgranites.com/",
+            "image": "assets/images/projects/general/shantinath-granites.webp"
+          },
+          {
+            "name": "Sri MK Papers",
+            "link": "https://www.srimkpapers.com/",
+            "image": "assets/images/projects/general/sri-mk-papers.webp"
+          },
+          {
+            "name": "Karachi Bakery",
+            "link": "https://karachibakery.com/",
+            "image": "assets/images/projects/general/karachi-bakery.webp"
+          }
+        ]
+      },
+      {
+        "id": "construction",
+        "name": "Construction",
+        "projects": [
+          {
+            "name": "Sri Raja Constructions",
+            "link": "http://www.srirajaconstructions.in/",
+            "image": "assets/images/projects/real-estate/sri-raja-constructions.webp"
+          },
+          {
+            "name": "Future Star Investments",
+            "link": "https://www.futurestarsinvestments.com/",
+            "image": "assets/images/projects/real-estate/future-star-investments.webp"
+          },
+          {
+            "name": "Devansh Constructions",
+            "link": "https://devanshconstructions.com/",
+            "image": "assets/images/projects/real-estate/devansh-constructions.webp"
+          },
+          {
+            "name": "IRA Steels",
+            "link": "https://irasteels.com/",
+            "image": "assets/images/projects/real-estate/irasteels.webp"
+          }
+        ]
+      },
+      {
+        "id": "healthcare",
+        "name": "Healthcare",
+        "projects": [
+          {
+            "name": "Acuralabs",
+            "link": "https://www.acuralabs.in/",
+            "image": "assets/images/projects/pharma/acuralabs.webp"
+          },
+          {
+            "name": "Remedy Hospitals",
+            "link": "https://www.remedyhospitals.in/",
+            "image": "assets/images/projects/pharma/remedy-hospitals.webp"
+          },
+          {
+            "name": "Southerngem Hospitals",
+            "link": "https://www.southerngem.in/",
+            "image": "assets/images/projects/pharma/southern-gem-hospitals.webp"
+          },
+          {
+            "name": "Scalare Pharma",
+            "link": "http://www.scalarepharma.com/",
+            "image": "assets/images/projects/pharma/scalare-pharma.webp"
+          }
+        ]
+      },
+      {
+        "id": "education",
+        "name": "Education",
+        "projects": [
+          {
+            "name": "Little Angels Schools",
+            "link": "https://littleangelsschools.co.in/",
+            "image": "assets/images/projects/education/little-angels-schools.webp"
+          },
+          {
+            "name": "Matrix College",
+            "link": "https://www.matrixcollege.ca/",
+            "image": "assets/images/projects/education/matrix-college.webp"
+          },
+          {
+            "name": "LD Overseas Education",
+            "link": "http://www.ldoverseaseducation.com/",
+            "image": "assets/images/projects/education/ldoverseas-education.webp"
+          },
+          {
+            "name": "CBIT",
+            "link": "http://cbit.org.in/",
+            "image": "assets/images/projects/education/cbit.webp"
+          },
+          {
+            "name": "OdinSchool",
+            "link": "https://www.odinschool.com/",
+            "image": "assets/images/projects/education/Odinschool.webp"
+          },
+          {
+            "name": "Canary The School",
+            "link": "https://www.canarytheschool.com/",
+            "image": "assets/images/projects/education/canary-the-school.webp"
+          },
+          {
+            "name": "JGI Schools",
+            "link": "https://www.jgischools.in/index.php/",
+            "image": "assets/images/projects/education/jgi-schools.webp"
+          }
+        ]
+      }
+    ]
+  };
+  
   const [activeTab, setActive] = useState("general");
   const handleTabClick = (id) => {
     setActive(id);
