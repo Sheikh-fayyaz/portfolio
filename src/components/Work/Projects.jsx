@@ -107,6 +107,7 @@ export default function Projects() {
             {workData.categories.map((category) => (
               <button
                 key={category.id}
+                 type="button" role="tab" aria-controls={category.name} aria-selected="true"
                 className={`nav-link rounded-top-4 py-md-3 px-md-5 px-3 py-2 ${
                   activeTab === category.id ? "active" : ""
                 }`}
