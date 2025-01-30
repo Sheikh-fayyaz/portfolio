@@ -15,7 +15,7 @@ export default function MyContact() {
                 alignX="d-flex justify-content-start"
               />
               <Paragraph content="I'm currently available to take on new projects! Feel free to reach out if you have an idea or project you'd like to discuss. You can contact me anytime, as I’m available 24/7. " />
-              <ul class="list-unstyled contact-info-list-3 my-5">
+              <ul className="list-unstyled contact-info-list-3 my-5">
                 <li>
                   <a href="tel:+917416208245">+91 7416208245</a>
                 </li>

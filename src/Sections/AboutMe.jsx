@@ -4,7 +4,7 @@ import ContactButton from "../components/ContactButton";
 
 export default function AboutMe() {
   return (
-    <section className="about-me" id="about-me">
+    <section className="about-me section-padY" id="about-me">
       <div className="container">
       <div className="primary-bg p-md-5 p-4 rounded-4">
         <div className="row justify-content-end">

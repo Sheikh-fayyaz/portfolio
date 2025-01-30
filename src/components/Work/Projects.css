@@ -214,6 +214,7 @@
     text-decoration: none;
     color: var(--primary-color);
     transition: 0.25s ease-in-out;
+    background: transparent;
   }
   .arroIcons:hover {
     background-color: var(--primary-color);
