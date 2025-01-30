@@ -107,10 +107,8 @@ export default function Projects() {
             {workData.categories.map((category) => (
               <button
                 key={category.id}
-                 type="button" role="tab" aria-controls={category.name} aria-selected="true"
-                className={`nav-link rounded-top-4 py-md-3 px-md-5 px-3 py-2 ${
-                  activeTab === category.id ? "active" : ""
-                }`}
+                 type="button" role="tab" aria-controls={`${category.name}-panel`} aria-selected= {`${ activeTab === category.id ? "true" : "false" }`}
+                className={`nav-link rounded-top-4 py-md-3 px-md-5 px-3 py-2 ${ activeTab === category.id ? "active" : "" }`}
                 onClick={() => handleTabClick(category.id)}
               >
                 {category.name}
@@ -123,9 +121,8 @@ export default function Projects() {
             {workData.categories.map((category) => (
               <div
                 key={category.id}
-                className={`tab-pane fade ${
-                  activeTab === category.id ? "show active" : ""
-                }`}
+                id={`${category.id}-panel`} role="tabpanel" aria-labelledby={`${category.id}-tab`}
+                className={`tab-pane fade ${ activeTab === category.id ? "show active" : "" }`}
               >
                 <div className="row pb-md-0 pb-3">
                   {category.projects.map((project) => (
