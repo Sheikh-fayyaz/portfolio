@@ -133,7 +133,7 @@ export default function Projects() {
                       <a href={project.link} target="_blank" rel="noreferrer nofollow" className="skill-item text-center">
                         <div className="skill-inner p-4 rounded-4 mb-4">
                           <div className="projectImg rounded-3 overflow-hidden">
-                            <img src={project.image} className="w-100" loading="lazy" alt={project.name} />
+                            <img src={project.image} className="w-100" loading="lazy" alt={`${project.name} Website`} />
                           </div>
                         </div>
                         <div className="btn link-button bg-transparent py-0 px-1 mx-auto d-block">
@@ -172,7 +172,7 @@ export default function Projects() {
                         <a href={project.link} target="_blank" rel="noreferrer nofollow" className="skill-item text-center">
                           <div className="skill-inner p-3 rounded-4 mb-4">
                             <div className="projectImg rounded-3 overflow-hidden">
-                              <img src={project.image} className="w-100" loading="lazy" alt={project.name} />
+                              <img src={project.image} className="w-100" loading="lazy" alt={`${project.name} Website`} />
                             </div>
                           </div>
                           <div className="btn link-button bg-transparent py-0 px-1 mx-auto d-block">
@@ -183,10 +183,10 @@ export default function Projects() {
                     ))}
                   </div>
                   <div className="d-md-none mt-2 d-flex justify-content-end">
-                    <button id={`prev-${category.id}`} className="arroIcons me-2">
+                    <button id={`prev-${category.id}`} className="arroIcons me-2" aria-label="Previous Projects">
                       <i className="fa-solid fa-arrow-left"></i>
                     </button>
-                    <button id={`next-${category.id}`} className="arroIcons">
+                    <button id={`next-${category.id}`} className="arroIcons" aria-label="Next Projects">
                       <i className="fa-solid fa-arrow-right"></i>
                     </button>
                   </div>
