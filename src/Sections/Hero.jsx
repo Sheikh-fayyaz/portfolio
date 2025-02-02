@@ -24,7 +24,7 @@ export default function Hero() {
               <Image
                 imgPath={fayyazPicMobile}
                 imgAlt="sheikh fayyaz Frontend Developer"
-                imgLoading="eager"
+                imgfetchpriority="high"
               />
               </div>
             </div>
