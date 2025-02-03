@@ -184,11 +184,11 @@ const ContactForm = () => {
               >
                 <div className="mb-3">
                   <img
-                    src="./assets/img/icons/check.png"
+                    src="assets/images/icons/check.png"
                     width="120"
                     height="120"
                     loading="lazy"
-                    alt="Hivision Foundation"
+                    alt="Message Sent"
                   />
                 </div>
                 <h5>Thank you for submitting your details.</h5>
