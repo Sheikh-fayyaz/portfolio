@@ -70,10 +70,10 @@ const ContactForm = () => {
       // EmailJS integration
       emailjs
         .sendForm(
-          "service_w9dlk8a", // Your service ID
+          "service_2pcfd5d", // Your service ID
           "template_xgbd3vg", // Your template ID
           e.target, // The form you are submitting
-          "user_your_user_id" // Your user ID from EmailJS
+          "AXae0mFpw0UU2p2lJ" // Your user ID from EmailJS
         )
         .then(
           (response) => {
