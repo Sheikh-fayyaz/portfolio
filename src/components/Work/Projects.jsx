@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import React, { useState, useEffect } from "react";
 import "./Projects.css";
 
@@ -321,9 +323,10 @@ export default function Projects() {
                   <div className="d-md-none mt-2 d-flex justify-content-end">
                     <button id={`prev-${category.id}`} className="arroIcons me-2" aria-label="Previous Projects">
                       <i className="fa-solid fa-arrow-left"></i>
+                      <FontAwesomeIcon icon={faArrowLeft} />
                     </button>
                     <button id={`next-${category.id}`} className="arroIcons" aria-label="Next Projects">
-                      <i className="fa-solid fa-arrow-right"></i>
+                    <FontAwesomeIcon icon={faArrowRight} />
                     </button>
                   </div>
                 </div>
