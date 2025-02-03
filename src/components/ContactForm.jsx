@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import emailjs from '@emailjs/browser';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -155,13 +157,14 @@ const ContactForm = () => {
           </div>
 
           <div className="form_btn">
+
             <button type="submit" 
             className="primary-btn border-0 contact-button d-inline-flex align-items-center text-decoration-none px-4 py-3 fw-semibold rounded-pill">
               Send Message
               <span className="icon_box">
-          <i className="fa-solid fa-arrow-right icon_first"></i>
-          <i className="fa-solid fa-arrow-right icon_second"></i>
-        </span>
+        <FontAwesomeIcon icon={faArrowRight} className="icon_first" />
+        <FontAwesomeIcon icon={faArrowRight} className="icon_second" />
+      </span>
             </button>
 
 
