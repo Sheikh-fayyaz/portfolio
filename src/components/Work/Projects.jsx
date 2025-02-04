@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight, faArrowLeft, faPlus, faMinus } from "@fortawesome/free-solid-svg-icons";
 import React, { useState, useEffect } from "react";
 import "./Projects.css";
 
@@ -275,7 +275,13 @@ export default function Projects() {
                           </div>
                         </div>
                         <div className="btn link-button bg-transparent py-0 px-1 mx-auto d-block">
-                          <small>{project.name}</small>
+                          <small>{project.name}
+                          <span className="icon_box">
+        <FontAwesomeIcon icon={faArrowRight} className="icon_first" />
+        <FontAwesomeIcon icon={faArrowRight} className="icon_second" />
+      </span>
+                          </small>
+                          
                         </div>
                       </a>
                     </div>
@@ -293,10 +299,11 @@ export default function Projects() {
           {workData.categories.map((category) => (
             <div className="accordion-item" key={category.id}>
               <button
-                className={`faq-title ${activeAccordion === category.id ? "" : "collapsed"}`}
+                className={`faq-title d-flex justify-content-between ${activeAccordion === category.id ? "" : "collapsed"}`}
                 onClick={() => toggleAccordion(category.id)}
               >
                 {category.name}
+                <FontAwesomeIcon icon={activeAccordion === category.id ? faMinus : faPlus} className="icon_first" />
               </button>
               <div
                 id={`faq-${category.id}`}
