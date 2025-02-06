@@ -1,7 +1,9 @@
 import Heading from "../components/Heading/Heading";
 import Image from "../components/Image";
-import fayyazPic from "../../public/assets/images/fayyaz-pic.webp";
-import fayyazPicMobile from "../../public/assets/images/fayyaz-pic-mobile.webp";
+
+import fayyazPic from "../../src/assets/images/fayyaz-pic.webp";
+import fayyazPicMobile from "../../src/assets/images/fayyaz-pic-mobile.webp";
+
 import DownloadButton from "../components/DownloadButton";
 import SocialIcons from "../components/SocialIcons/SocialIcons";
 import Paragraph from "../components/Paragraph"
