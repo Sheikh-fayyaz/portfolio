@@ -2,7 +2,7 @@ import Heading from "../components/Heading/Heading";
 import Image from "../components/Image";
 
 import fayyazPic from "../../src/assets/images/fayyaz-pic.webp";
-import fayyazPicMobile from "../../src/assets/images/fayyaz-pic-mobile.webp";
+import fayyazPicMobile from "../../src/assets/images/fayyaz-pic-mobile.avif";
 
 import DownloadButton from "../components/DownloadButton";
 import SocialIcons from "../components/SocialIcons/SocialIcons";
@@ -27,6 +27,7 @@ export default function Hero() {
                 imgPath={fayyazPicMobile}
                 imgAlt="sheikh fayyaz Frontend Developer"
                 imgLoading="eager"
+                imgfetchpriority="high"
               />
               </div>
             </div>
