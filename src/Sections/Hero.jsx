@@ -1,12 +1,13 @@
 import Heading from "../components/Heading/Heading";
 import Image from "../components/Image";
+
+import fayyazPic from "../../src/assets/images/fayyaz-pic.webp";
+import fayyazPicMobile from "../../src/assets/images/fayyaz-pic-mobile.avif";
+
 import DownloadButton from "../components/DownloadButton";
 import SocialIcons from "../components/SocialIcons/SocialIcons";
-import Paragraph from "../components/Paragraph";
+import Paragraph from "../components/Paragraph"
 
-// ✅ Fix: Use absolute paths for public folder images
-const fayyazPic = "/portfolio/images/fayyaz-pic.webp";
-const fayyazPicMobile = "/portfolio/images/fayyaz-pic-mobile.avif";
 
 export default function Hero() {
   return (
@@ -22,18 +23,18 @@ export default function Hero() {
 
             <div className="theme-bg-shadow position-relative d-md-none d-block px-4 my-4">
               <div className="primary-bg rounded-4">
-                <Image
-                  imgPath={fayyazPicMobile} // ✅ Use direct path from /public folder
-                  imgAlt="Sheikh Fayyaz Frontend Developer"
-                  imgLoading="eager"
-                  imgfetchpriority="high"
-                />
+              <Image
+                imgPath={fayyazPicMobile}
+                imgAlt="sheikh fayyaz Frontend Developer"
+                imgLoading="eager"
+                imgfetchpriority="high"
+              />
               </div>
             </div>
 
             <Paragraph
               mb="mb-md-5 mb-3"
-              content="I break down complex user experience problems to create integrity-focused solutions that connect billions of people."
+              content="I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people."
             />
             <div className="d-flex align-items-center gap-4 flex-wrap justify-content-md-start justify-content-center">
               <div className="">
@@ -47,8 +48,8 @@ export default function Hero() {
           <div className="col-lg-3 col-md-3 col-12">
             <div className="theme-bg-shadow position-relative d-md-block d-none">
               <Image
-                imgPath={fayyazPic} // ✅ Use direct path from /public folder
-                imgAlt="Sheikh Fayyaz Frontend Developer"
+                imgPath={fayyazPic}
+                imgAlt="sheikh fayyaz Frontend Developer"
                 imgLoading="eager"
               />
             </div>
