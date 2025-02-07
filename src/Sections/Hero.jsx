@@ -26,7 +26,7 @@ export default function Hero() {
               <Image
                 imgPath={fayyazPicMobile}
                 imgAlt="sheikh fayyaz Frontend Developer"
-                imgLoading="eager"
+                imgLoading="lazy"
               />
               </div>
             </div>
