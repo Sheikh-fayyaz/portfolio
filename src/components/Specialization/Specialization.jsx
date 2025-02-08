@@ -39,7 +39,7 @@ export default function Specialization() {
       {SpecializationData.map(({ id, title, description }) => {
         return (
           <div key={id} className="col-md-6 col-10">
-            <div className="specialization-card p-md-4 p-3 rounded-3 mb-4">
+            <div className="specialization-card p-md-4 p-3 rounded-3 mb-4 d-flex align-items-center">
               <div className="row">
                 <div className="col-md-5 col-12">
                   <h5 className="mb-md-0 mb-4 fw-bold">
