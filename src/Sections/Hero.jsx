@@ -46,11 +46,13 @@ export default function Hero() {
           </div>
           <div className="col-lg-3 col-md-3 col-12">
             <div className="theme-bg-shadow position-relative d-md-block d-none">
+            <div className="primary-bg rounded-4">
               <Image
                 imgPath={fayyazPic}
                 imgAlt="sheikh fayyaz Frontend Developer"
                 imgLoading="eager"
               />
+            </div>
             </div>
           </div>
         </div>
