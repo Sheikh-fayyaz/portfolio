@@ -17,6 +17,11 @@ export default defineConfig({
       },
     },
   },
+  server: {
+    headers: {
+      'Cache-Control': 'max-age=31536000, immutable', // Cache static assets for 1 year
+    },
+  },
   css: {
     postcss: {
       plugins: [
@@ -26,5 +31,8 @@ export default defineConfig({
         }),
       ],
     },
+  },
+  define: {
+    'process.env': {}, // Ensures compatibility with some libraries that require `process.env`
   },
 });
