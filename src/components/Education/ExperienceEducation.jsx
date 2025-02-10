@@ -97,7 +97,7 @@ export default function Education() {
                   {ExperienceData.map((data) => {
                     return (
                       <div className="works-item work-item1" key={data.id}>
-                        <h5 className="title text-uppercase">{data.designation}</h5>
+                        <h5 className="title fw-semibold">{data.designation}</h5>
                         <h6 className="sub-title">{data.company}</h6>
                         <span className="opacity-50">
                           {data.employmentType} | {data.duration}{" "}
@@ -128,7 +128,7 @@ export default function Education() {
                   {EducationData.map((data) => {
                     return (
                       <div className="works-item work-item1" key={data.id}>
-                        <h5 className="title text-uppercase">{data.degree}</h5>
+                        <h5 className="title fw-semibold">{data.degree}</h5>
                         <h6 className="sub-title">{data.institution}</h6>
                         <span className="opacity-50">{data.duration}</span>
 
