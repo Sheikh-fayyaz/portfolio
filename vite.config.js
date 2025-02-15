@@ -1,9 +1,10 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import purgecss from '@fullhuman/postcss-purgecss';
+import compression from 'vite-plugin-compression';
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(),compression()],
   base: '/portfolio/', // Ensure it's correct for GitHub Pages deployment
   build: {
     minify: 'esbuild', // Faster minification
