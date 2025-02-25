@@ -240,7 +240,19 @@ p {
         width: 306px !important;
         height: 327px;
     }
+    @media only screen and (min-width: 767px) {
+        .aboutBg {
+            background-image: 
+              linear-gradient(to left, #271735 0%, #271735 33%, transparent 90%),
+              url('../public/images/hero-img.png');
+            background-size: cover;
+            background-position: center;
+            background-position-x: -200px;
+      background-repeat: no-repeat;
+          }
+    }
 
+      
 @media only screen and (max-width: 767px) {
     .first-fold-img {
         width: 300px !important;
