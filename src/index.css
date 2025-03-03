@@ -244,7 +244,7 @@ p {
         .aboutBg {
             background-image: 
               linear-gradient(to left, #271735 0%, #271735 33%, transparent 90%),
-              url('../public/images/hero-img.png');
+              url('../public/images/hero-img-1.webp');
             background-size: cover;
             background-position: center;
             background-position-x: -200px;
