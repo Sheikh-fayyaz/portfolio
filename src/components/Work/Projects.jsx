@@ -20,6 +20,7 @@ export default function Projects() {
           { name: "Shantinath Granites", link: "http://www.shantinathgranites.com/", image: images["../../assets/images/projects/general/shantinath-granites.webp"].default },
           { name: "Sri MK Papers", link: "https://www.srimkpapers.com/", image: images["../../assets/images/projects/general/sri-mk-papers.webp"].default },
           { name: "Karachi Bakery", link: "https://karachibakery.com/", image: images["../../assets/images/projects/general/karachi-bakery.webp"].default },
+          { name: "Tigeranalytics Clone", link: "https://40195053.hs-sites.com/tigeranalytics-home", image: images["../../assets/images/projects/general/tigeranalytics-home-clone.webp"].default },
         ]
       },
       {
