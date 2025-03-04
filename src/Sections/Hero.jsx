@@ -22,7 +22,7 @@ export default function Hero() {
             />
 
             <div className="theme-bg-shadow position-relative d-md-none d-block px-4 my-4">
-              <div className="rounded-4" style={{backgroundColor: "#ccc"}}>
+              <div className="rounded-4" style={{backgroundColor: "#cccccc"}}>
               <Image
                 imgPath={fayyazPicMobile}
                 imgAlt="sheikh fayyaz Frontend Developer"

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import emailjs from '@emailjs/browser';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import iconCheck from "../assets/images/icons/check.png";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -184,7 +185,7 @@ const ContactForm = () => {
               >
                 <div className="mb-3">
                   <img
-                    src="assets/images/icons/check.png"
+                    src={iconCheck}
                     width="120"
                     height="120"
                     loading="lazy"
