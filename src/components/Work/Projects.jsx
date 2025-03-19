@@ -54,6 +54,7 @@ export default function Projects() {
           { name: "OdinSchool", link: "https://www.odinschool.com/", image: images["../../assets/images/projects/education/Odinschool.webp"].default },
           { name: "Canary The School", link: "https://www.canarytheschool.com/", image: images["../../assets/images/projects/education/canary-the-school.webp"].default },
           { name: "JGI Schools", link: "https://www.jgischools.in/index.php/", image: images["../../assets/images/projects/education/jgi-schools.webp"].default },
+          { name: "Data Analyst College Program", link: "https://college.odinschool.com/data-analyst-course", image: images["../../assets/images/projects/education/data-analyst-college-program-odinschool.webp"].default },
         ]
       }
     ]
