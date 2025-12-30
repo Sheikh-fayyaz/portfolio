@@ -1,7 +1,7 @@
 import Heading from "../components/Heading/Heading";
 import Image from "../components/Image";
 
-import fayyazPic from "../../src/assets/images/fayyaz-pic.webp";
+import fayyazPic from "../../src/assets/images/fayyaz-photo.webp";
 import fayyazPicMobile from "../../src/assets/images/fayyaz-pic-mobile.avif";
 
 import DownloadButton from "../components/DownloadButton";
@@ -16,8 +16,8 @@ export default function Hero() {
         <div className="row justify-content-between align-items-center">
           <div className="col-lg-7 col-md-7 col-12 text-md-start text-center">
             <Heading
-              smallText="I am Sheikh Fayyaz"
-              bigText1="Next-Level"
+              smallText="Hi, I’m Sheikh Fayyaz 👋"
+              bigText1="Senior"
               bigText2="Frontend Developer."
             />
 
@@ -33,7 +33,7 @@ export default function Hero() {
 
             <Paragraph
               mb="mb-md-5 mb-3"
-              content="I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people."
+              content="I specialize in building scalable, responsive, and high-performance web applications with React, Next.js, and modern UI frameworks—focused on usability, performance, and business impact."
             />
             <div className="d-flex align-items-center gap-4 flex-wrap justify-content-md-start justify-content-center">
               <div className="">

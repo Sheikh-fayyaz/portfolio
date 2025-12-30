@@ -1,1 +1,61 @@
 .specialization-row { scroll-behavior: smooth; scrollbar-width: none; } .specialization-card { transition: 0.3s ease-in; border: 2px solid var(--primary-bg); min-height: 171px; } .specialization-card h5 { font-size: 1rem; line-height: 1.4; } .specialization-card:hover { background-color: var(--primary-bg); } .specialization-card p { font-size: 0.9rem; } @media only screen and (max-width: 600px) { .specialization-card { min-height: 272px; } }
+.specialization-wrapper {
+  height: 560px; /* enough for 3 rows */
+}
+
+.specialization-swiper {
+  height: 100%;
+}
+
+/* Nav buttons container */
+.specialization-nav {
+  position: absolute;
+  right: -52px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(167, 139, 250, 0.15);
+  border: 1px solid rgba(167, 139, 250, 0.4);
+  color: #a78bfa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+
+/* Hover effect */
+.specialization-nav:hover {
+  background: rgba(167, 139, 250, 0.3);
+}
+
+/* Top button */
+.specialization-prev {
+  top: 40%;
+}
+/* Bottom button */
+.specialization-next {
+  top: 50%;
+}
+
+.specialization-prev::after {
+  content: "↑";
+  font-size: 18px;
+}
+
+.specialization-next::after {
+  content: "↓";
+  font-size: 18px;
+}
+
+/* Hide arrows on mobile */
+@media (max-width: 767px) {
+  .specialization-wrapper {
+    height: auto;
+  }
+
+  .specialization-nav {
+    display: none;
+  }
+}

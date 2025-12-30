@@ -9,11 +9,19 @@ export default function Education() {
       "employmentType": "Full-time",
       "duration": "Jul 2023 to Present",
       "responsibilities": [
-        "Design and develop responsive and visually appealing modules, templates, and themes using HubSpot's Design Manager.",
-        "Proficient in translating Figma designs into functional and responsive web pages.",
-        "Ensure consistency in branding and user experience across all digital touchpoints.",
-        "Implement SEO best practices within HubSpot CMS."
-      ]
+  "Designed and developed scalable React.js and Next.js applications using reusable, modular UI components.",
+  "Built and customized HubSpot CMS themes, templates, and modules using HubL, HTML, CSS, and JavaScript via Design Manager.",
+  "Integrated React-based interfaces with HubSpot CMS to enable dynamic content, smart rules, and marketing automation.",
+  "Translated Figma, Sketch, and Adobe XD designs into pixel-perfect, responsive, and accessible web interfaces.",
+  "Implemented A/B testing using Statsig and HubSpot tools to optimize layouts, content, and conversion rates.",
+  "Developed SEO-friendly landing pages with HubSpot Forms, CTAs, and CRM integrations for lead generation.",
+  "Utilized HubDB to manage structured data and generate dynamic pages such as events, listings, and content tables.",
+  "Applied performance optimizations including code splitting, lazy loading, and rendering optimizations.",
+  "Ensured WCAG compliance, semantic HTML, and cross-browser compatibility across all major browsers.",
+  "Collaborated closely with design, marketing, and sales teams to align technical execution with business goals.",
+  "Managed version control and deployments using Git, GitHub, and Vercel."
+]
+
     },
     {
       "id":"2",
@@ -22,17 +30,19 @@ export default function Education() {
       "employmentType": "Full-time",
       "duration": "March 2021 to Jul 2023",
       "responsibilities": [
-        "Experience in creating and maintaining functional, attractive, and responsive websites.",
-        "Determining the structure and design of web pages.",
-        "Maintain and improve websites.",
-        "Design mobile-based features.",
-        "Collaborate with back-end developers and web designers to improve usability.",
-        "Get feedback from, and build solutions for, users and customers.",
-        "Ensure high-quality graphic standards and brand consistency.",
-        "Developing features to enhance the user experience.",
-        "Ensuring web design is optimized for smartphones.",
-        "Optimizing web pages for maximum speed and scalability."
-      ]
+  "Designed and developed functional, visually appealing, and responsive web interfaces using modern frontend technologies.",
+  "Built mobile-first layouts and features optimized for smartphones, tablets, and desktops.",
+  "Translated design mockups into clean, maintainable, and accessible front-end code following best practices.",
+  "Integrated REST APIs to fetch and display dynamic data, enhancing application interactivity.",
+  "Ensured cross-browser compatibility and consistent UI behavior across all major browsers and devices.",
+  "Optimized web pages for performance, speed, and scalability using modern frontend techniques.",
+  "Applied SEO best practices using semantic HTML and optimized metadata to improve search visibility.",
+  "Collaborated closely with designers and back-end developers to improve usability and user experience.",
+  "Gathered feedback from users and stakeholders to refine features and improve overall UX.",
+  "Tested, debugged, and resolved UI issues to ensure stable, high-quality releases.",
+  "Maintained and enhanced existing websites while ensuring brand consistency and design standards."
+]
+
     },
     {
       "id":"3",
@@ -41,10 +51,14 @@ export default function Education() {
       "employmentType": "Full-time",
       "duration": "Jun 2020 to Dec 2020",
       "responsibilities": [
-        "Proficient in converting PSD designs into pixel-perfect HTML templates.",
-        "Expertise in customizing website themes to meet specific design and functionality requirements.",
-        "Assisting senior developers in the creation and integration of pages, images, icons, and components."
-      ]
+  "Converted PSD design files into pixel-perfect HTML and CSS templates following frontend best practices.",
+  "Customized pre-built website themes to align with branding, UI guidelines, and functional requirements.",
+  "Assisted senior developers with page creation, content integration, images, icons, and reusable UI components.",
+  "Implemented UI fixes and layout enhancements to improve visual consistency and usability.",
+  "Performed basic QA testing, bug reporting, and UI consistency checks across browsers.",
+  "Applied foundational UI/UX principles while learning modern frontend development practices."
+]
+
     }
   ];
 

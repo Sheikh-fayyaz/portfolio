@@ -8,7 +8,7 @@ export default function MySkills() {
     <section className="skills section-padY pt-0" id="skills">
       <div className="container">
         <Title
-          content="My Skills"
+          content="Technical Skills & Expertise"
           alignX="d-flex justify-content-center"
         />
          <Suspense fallback={<div>Loading...</div>}>
