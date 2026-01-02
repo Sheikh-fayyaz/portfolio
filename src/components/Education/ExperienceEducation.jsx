@@ -4,10 +4,10 @@ export default function Education() {
   const ExperienceData = [
     {
       "id":"1",
-      "designation": "Frontend Developer",
+      "designation": "Senior Frontend Developer",
       "company": "Greycampus Edutech",
       "employmentType": "Full-time",
-      "duration": "Jul 2023 to Present",
+      "duration": "Jul 2023 to Dec 2025",
       "responsibilities": [
         "Designed and developed scalable React.js and Next.js applications using reusable, modular UI components.",
 "Built and customized HubSpot CMS themes, templates, and modules using HubL, HTML, CSS, and JavaScript via the Design Manager.",
@@ -45,7 +45,7 @@ export default function Education() {
     },
     {
       "id":"3",
-      "designation": "UI UX Developer",
+      "designation": "Junior Frontend/UI Developer",
       "company": "Ziraff Technologies",
       "employmentType": "Full-time",
       "duration": "Jun 2020 to Dec 2020",
