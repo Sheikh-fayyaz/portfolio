@@ -4,7 +4,7 @@ import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 export default function DownloadButton() {
   return (
     <a
-      href="/portfolio/pdf/fayyaz-resume-frontend-dev.pdf" // ✅ Fixed path
+      href="/portfolio/pdf/resume-fayyaz.pdf" // ✅ Fixed path
       target="_blank"
       className="primary-btn header-button d-inline-flex align-items-center text-decoration-none px-4 py-3 fw-semibold rounded-pill"
       download=""
